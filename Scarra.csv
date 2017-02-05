@@ -1,0 +1,11 @@
+,matchID,firstDragon,bans,firstInhibitor,baronKills,firstRiftHerald,winner,firstBaron,riftheraldKills,firstBlood,teamId,firstTower,vilemawKills,inhibitorKills,towerKills,dominionVictoryScore,dragonKills
+1,2408679535,False,"[{u'pickTurn': 2, u'championId': 64}, {u'pickTurn': 4, u'championId': 19}, {u'pickTurn': 6, u'championId': 55}]",False,0,False,False,False,0,True,200,False,0,0,2,0,0
+0,2409069673,False,"[{u'pickTurn': 1, u'championId': 164}, {u'pickTurn': 3, u'championId': 55}, {u'pickTurn': 5, u'championId': 19}]",True,1,False,True,True,0,True,100,True,0,2,11,0,1
+1,2409098015,True,"[{u'pickTurn': 2, u'championId': 13}, {u'pickTurn': 4, u'championId': 121}, {u'pickTurn': 6, u'championId': 120}]",False,0,True,True,False,1,True,200,True,0,0,5,0,1
+1,2409104031,True,"[{u'pickTurn': 2, u'championId': 120}, {u'pickTurn': 4, u'championId': 40}, {u'pickTurn': 6, u'championId': 164}]",False,0,False,False,False,0,True,200,False,0,0,1,0,1
+0,2409473580,True,"[{u'pickTurn': 1, u'championId': 107}, {u'pickTurn': 3, u'championId': 7}, {u'pickTurn': 5, u'championId': 120}]",True,0,False,True,False,0,True,100,False,0,3,10,0,5
+1,2409546141,False,"[{u'pickTurn': 2, u'championId': 120}, {u'pickTurn': 4, u'championId': 107}, {u'pickTurn': 6, u'championId': 90}]",False,0,False,False,False,0,True,200,False,0,0,1,0,0
+0,2409549765,True,"[{u'pickTurn': 1, u'championId': 107}, {u'pickTurn': 3, u'championId': 7}, {u'pickTurn': 5, u'championId': 121}]",True,2,False,True,True,0,True,100,True,0,2,10,0,2
+1,2409609168,True,"[{u'pickTurn': 2, u'championId': 164}, {u'pickTurn': 4, u'championId': 107}, {u'pickTurn': 6, u'championId': 13}]",True,1,False,True,True,0,False,200,False,0,2,10,0,2
+0,2409674662,False,"[{u'pickTurn': 1, u'championId': 107}, {u'pickTurn': 3, u'championId': 120}, {u'pickTurn': 5, u'championId': 121}]",True,1,False,True,True,0,False,100,False,0,2,10,0,1
+0,2413317998,True,"[{u'pickTurn': 1, u'championId': 7}, {u'pickTurn': 3, u'championId': 107}, {u'pickTurn': 5, u'championId': 119}]",False,1,False,False,True,0,False,100,False,0,1,7,0,2

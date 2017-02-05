@@ -1,0 +1,12 @@
+,matchID,firstDragon,bans,firstInhibitor,baronKills,firstRiftHerald,winner,firstBaron,riftheraldKills,firstBlood,teamId,firstTower,vilemawKills,inhibitorKills,towerKills,dominionVictoryScore,dragonKills
+1,2407787433,True,"[{u'pickTurn': 2, u'championId': 164}, {u'pickTurn': 4, u'championId': 120}, {u'pickTurn': 6, u'championId': 7}]",True,1,True,True,True,1,True,200,True,0,1,9,0,3
+1,2410767351,True,"[{u'pickTurn': 2, u'championId': 164}, {u'pickTurn': 4, u'championId': 120}, {u'pickTurn': 6, u'championId': 7}]",True,1,True,True,True,1,True,200,True,0,1,9,0,3
+1,2410749501,False,"[{u'pickTurn': 2, u'championId': 164}, {u'pickTurn': 4, u'championId': 7}, {u'pickTurn': 6, u'championId': 254}]",False,0,False,False,False,0,True,200,False,0,0,0,0,0
+0,2410774976,False,"[{u'pickTurn': 1, u'championId': 55}, {u'pickTurn': 3, u'championId': 107}, {u'pickTurn': 5, u'championId': 7}]",False,0,True,False,False,1,False,100,False,0,0,4,0,1
+0,2410881353,True,"[{u'pickTurn': 1, u'championId': 121}, {u'pickTurn': 3, u'championId': 64}, {u'pickTurn': 5, u'championId': 7}]",False,0,False,True,False,0,True,100,True,0,0,5,0,1
+0,2410883736,False,"[{u'pickTurn': 1, u'championId': 164}, {u'pickTurn': 3, u'championId': 121}, {u'pickTurn': 5, u'championId': 51}]",True,0,False,True,False,0,False,100,True,0,1,8,0,3
+1,2413197247,True,"[{u'pickTurn': 2, u'championId': 164}, {u'pickTurn': 4, u'championId': 7}, {u'pickTurn': 6, u'championId': 13}]",True,1,False,True,True,0,False,200,False,0,3,11,0,2
+1,2413211846,False,"[{u'pickTurn': 2, u'championId': 7}, {u'pickTurn': 4, u'championId': 164}, {u'pickTurn': 6, u'championId': 55}]",False,0,False,False,False,0,True,200,True,0,0,3,0,0
+0,2413213657,True,"[{u'pickTurn': 1, u'championId': 126}, {u'pickTurn': 3, u'championId': 55}, {u'pickTurn': 5, u'championId': 107}]",False,0,False,False,False,0,True,100,False,0,0,2,0,3
+1,2414044482,True,"[{u'pickTurn': 2, u'championId': 7}, {u'pickTurn': 4, u'championId': 110}, {u'pickTurn': 6, u'championId': 164}]",False,0,False,True,False,0,True,200,False,0,0,5,0,2
+0,2414052519,False,"[{u'pickTurn': 1, u'championId': 121}, {u'pickTurn': 3, u'championId': 107}, {u'pickTurn': 5, u'championId': 19}]",False,0,False,False,False,0,False,100,False,0,0,3,0,0
