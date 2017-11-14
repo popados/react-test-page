@@ -5,6 +5,9 @@ import uuid from 'uuid';
 import ReactDOM from 'react-dom';
 import Projects from './Components/Projects.js';
 import AddProject from './Components/AddProject.js'
+import API_call from './Components/AddKey.js'
+import restKeys from './Components/API_List.js'
+
 
 class App extends Component {
   constructor() {
@@ -32,7 +35,9 @@ class App extends Component {
       //   category: 'bigdata'
       //
       // }
-    ]
+    ],
+    keys: []
+
   }
 }
 
@@ -41,7 +46,7 @@ componentWillMount(){
     [{
       id:uuid.v4(),
       title: 'BusinessWebsite',
-      category:'WebDesign'
+      category:'Web Design'
     },
     {
       id:uuid.v4(),
@@ -53,8 +58,21 @@ componentWillMount(){
       title: 'website two',
       category: 'league of legends'
     }]
-  });
+});
+  this.setState({keys:
+    [{
+      key_id:uuid.v4(),
+      api_key: 'first key',
+      queue: 'master'},
+
+      {key_id:uuid.v4(),
+      api_key: 'second key',
+      queue: 'diamond'}
+  ]
+});
 }
+
+
 handleAddProject(project){
   //console.log(project);
   let projects = this.state.projects;
@@ -67,13 +85,26 @@ handleDeleteProject(id){
   projects.splice(index, 1);
   this.setState({projects:projects});
 }
+newKeyAdded(key){
+  let keys = this.state.keys;
+  keys.push(key);
+  this.setState({keys:keys});
+}
+deleteKey(id_key){
+  let keys = this.state.keys;
+  let index_keys = keys.findIndex(x=> x.id_key === id_key);
+  keys.splice(index_keys, 1);
+  this.setState({keys:keys});
+}
+
   render() {
 
     return (
       <div className="App">
-      <AddProject addProject={this.handleAddProject.bind(this)}/>
+      <AddProject addProject={this.handleAddProject.bind(this)}/> <br />
       <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)} />
-
+      <API_call addKey={this.newKeyAdded.bind(this)}/> <br />
+      <restKey keys={this.state.keys} onDelete={this.deleteKey.bind(this)} />
       </div>
 
     );

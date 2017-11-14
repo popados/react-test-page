@@ -10,7 +10,7 @@ class AddProject extends Component {
     }
   }
   static defaultProps = {
-    categories: ['WebDesign','BusinessWebsite','league of legends']
+    categories: ['Web Design','Business Website','league of legends']
   }
   handleSubmit(e){
     if(this.refs.title.value === ''){
@@ -35,10 +35,10 @@ class AddProject extends Component {
     })
     return (
       <div>
-        <h3>Add Project</h3>
+        <h3>Basic Start</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
             <div>
-              <label>Title</label> <br />
+              <label> Project Name (Title) </label> <br />
               <input type="text" ref="title" />
       </div>
       <div>
